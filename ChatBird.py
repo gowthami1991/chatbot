@@ -34,7 +34,7 @@ option2 = st.sidebar.selectbox('Select The Downloaded Option ', ['View', 'Downlo
 if submit_button:
     try:
         # SQLite database connection
-        conn = sqlite3.connect('E:/customer.db')
+        conn = sqlite3.connect('chatbrid/customer.db')
 
         if search_term:
             # Specify the columns to search in
